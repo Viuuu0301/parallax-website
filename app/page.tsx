@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Hero from "./components/Hero";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -7,7 +9,8 @@ export default function Home() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <h1 className="">Hello</h1>
+      <Hero />
+      <About />
     </div>
   );
 }
